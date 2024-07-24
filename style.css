@@ -21,3 +21,43 @@
 ::-ms-scrollbar {
   width: 8px;
 }
+
+::-ms-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-ms-scrollbar-thumb {
+  background: #606060;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+::-ms-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+::-moz-scrollbar {
+  width: 8px;
+}
+
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+  background: #606060;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 56px;
+    overflow: hidden;
+    background-color: #fff;
+}
